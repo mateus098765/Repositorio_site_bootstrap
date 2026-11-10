@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    
+</head>
+<body class="bg-dark text-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top border-bottom border-success border-2">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-success fs-3" href="home.html">
+                MINECRAFT
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Alternar navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold">
+                    <li class="nav-item">
+        
+                        <a class="nav-link active text-success" aria-current="page" href="home.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="position-relative text-center text-white py-5 mb-5" style="background: linear-gradient(rgba(0,0,0,0.65), rgba(33,37,41,1)), url('../IMG/mine.jpg') center/cover no-repeat; min-height: 480px;">
+        <div class="container d-flex flex-column justify-content-center align-items-center h-100 py-5">
+            <span class="badge bg-success text-black fs-6 px-3 py-2 mb-3 rounded-pill text-uppercase fw-bold">Construa e Explore</span>
+            <h1 class="display-2 fw-black text-uppercase mb-3">Crie Seu Próprio Mundo</h1>
+            <p class="col-lg-8 fs-4 text-light-50 mb-4">
+                Explore paisagens infinitas, enfrente criaturas noturnas e faça construções no jogo mais popular do mundo.
+            </p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <a href="#modos" class="btn btn-success btn-lg px-4 me-sm-3 fw-bold">Explorar Modos</a>
+                <a href="about.html" class="btn btn-outline-light btn-lg px-4">Conhecer a História</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <div class="row align-items-center mb-5 pb-4">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <h2 class="display-5 fw-bold mb-3 text-success">O que é o Minecraft?</h2>
+                <p class="lead text-light mb-3">
+                    Minecraft é uma experiência sem objetivos pré-definidos obrigatórios, o jogador define a sua própria jornada.
+                </p>
+                <p class="text-secondary fs-6">
+                    Seja explorando as montanhas, escavando em busca de diamantes nas profundezas da terra ou viajando para outras dimensões, o jogo oferece liberdade absoluta.
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <div class="card bg-dark border-success shadow-lg overflow-hidden">
+                    <img src="../img/mine.jpg" class="card-img-top img-fluid" alt="Cena do Minecraft" style="max-height: 320px; object-fit: cover;">
+                    <div class="card-body p-4 bg-secondary bg-opacity-10">
+                        <h5 class="card-title text-success fw-bold">Curiosidade</h5>
+                        <p class="card-text text-secondary mb-0">
+                            Com mais de 300 milhões de cópias vendidas, o Minecraft é o jogo eletrônico mais vendido de todos os tempos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section id="modos" class="pt-4">
+            <div class="text-center mb-5">
+                <h2 class="display-6 fw-bold text-uppercase">Modos de Jogo</h2>
+                <p class="text-secondary">Escolha o estilo de jogo que mais combina com a sua aventura</p>
+                <hr class="w-25 mx-auto border-success border-3 opacity-100">
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 bg-secondary bg-opacity-10 border-0 shadow-sm text-light p-3">
+                        <span class="badge bg-danger mb-2">Sobrevivência</span>
+                        <h3 class="h5 card-title fw-bold text-danger">Desafio & Ação</h3>
+                        <p class="card-text text-secondary small">Gerencie fome e vida, recolha recursos e defenda-se de monstros.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 bg-secondary bg-opacity-10 border-0 shadow-sm text-light p-3">
+                        <span class="badge bg-primary mb-2">Criativo</span>
+                        <h3 class="h5 card-title fw-bold text-primary">Construção Livre</h3>
+                        <p class="card-text text-secondary small">Blocos ilimitados, voo livre e invulnerabilidade para criar sem limites.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 bg-secondary bg-opacity-10 border-0 shadow-sm text-light p-3">
+                        <span class="badge bg-warning text-dark mb-2">Aventura</span>
+                        <h3 class="h5 card-title fw-bold text-warning">Histórias e Mapas</h3>
+                        <p class="card-text text-secondary small">Explore mundos customizados feitos pela comunidade com regras próprias.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 bg-secondary bg-opacity-10 border-0 shadow-sm text-light p-3">
+                        <span class="badge bg-dark border border-danger text-danger mb-2">Hardcore</span>
+                        <h3 class="h5 card-title fw-bold text-danger-emphasis">Vida Única</h3>
+                        <p class="card-text text-secondary small">Modo sobrevivência na dificuldade máxima com morte permanente.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-black text-secondary py-4 mt-5 border-top border-secondary border-opacity-25">
+        <div class="container text-center text-md-start">
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <h5 class="text-success fw-bold">Minecraft</h5>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="text-light fw-bold">Páginas</h6>
+                    <ul class="list-unstyled small mb-0">
+                        <li><a href="home.html" class="text-secondary text-decoration-none">Início</a></li>
+                        <li><a href="about.html" class="text-secondary text-decoration-none">Sobre</a></li>
+                        <li><a href="contact.html" class="text-secondary text-decoration-none">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="text-light fw-bold">Contato</h6>
+                    <p class="small mb-0">
+                        <a href="mailto:2024302646@aluno.sertao.ifrs.edu.br" class="text-info text-decoration-none">
+                            2024302646@aluno.sertao.ifrs.edu.br
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
