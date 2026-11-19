@@ -7,46 +7,24 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
 </head>
 <body class="bg-light">
+    <!-- Menu de Navegação e logo-->
 
-    <!-- Cabeçalho -->
-    <header>
-        <img src="../img/mine.jpg" alt="Imagem de título" class="img-fluid w-100 d-block">
-        <div class="bg-dark text-white py-4 border-bottom border-success border-4">
-            <div class="container">
-                <div class="row align-items-center g-3">
-                    <div class="col-lg-8">
-                        <span class="badge bg-success mb-2">Mundo Aberto</span>
-                        <span class="badge bg-info text-dark mb-2">Sobrevivência</span>
-                        <span class="badge bg-warning text-dark mb-2">Criativo</span>
-                        <h1 class="display-5 fw-bold mb-1">Universo Minecraft</h1>
-                        <p class="lead text-secondary mb-0">Explore, construa e crie sem limites em um mundo feito de blocos.</p>
-                    </div>
-                    <div class="col-lg-4 text-lg-end">
-                        <a href="#modos" class="btn btn-success me-2">Ver Modos</a>
-                        <a href="#contato" class="btn btn-outline-light">Fale Conosco</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!-- Menu de Navegação !-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
         <div class="container">
-            <a class="navbar-brand fw-bold text-info" href="#inicio">Minecraft</a>
+            <a class="navbar-brand d-flex align-items-center fw-bold text-info" href="#inicio">
+                <img src="../img/logo.jpg" alt="Logo Minecraft" width="36" height="36" class="rounded me-2 border border-info">
+                <span>Minecraft</span>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Alternar navegação">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="menuPrincipal">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link text-info" href="#inicio">Início</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-info" href="#historia">Sobre</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-info" href="#mundo">Mundo Infinito</a>
+                        <a class="nav-link text-info" href="#sobre">Sobre</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-info" href="#modos">Modos de Jogo</a>
@@ -58,11 +36,55 @@
                         <a class="nav-link text-info" href="#contato">Contato</a>
                     </li>
                 </ul>
-                <button type="button" class="btn btn-outline-info btn-sm" data-bs-toggle="modal" data-bs-target="#modalResumo">
-                    Ficha Rápida
-                </button>
             </div>
         </div>
     </nav>
+
+    <!-- Carrossel-->
+    <header id="inicio">
+        <div id="carrosselMinecraft" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carrosselMinecraft" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carrosselMinecraft" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carrosselMinecraft" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../img/mine.jpg" class="d-block w-100 img-fluid" alt="Imagem de título Minecraft">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-3">
+                        <h2 class="fw-bold">Minecraft</h2>
+                        <p class="mb-0">Explore, construa e modifique ambientes formados por blocos.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/survival.jpg" class="d-block w-100 img-fluid" alt="Um Mundo Infinito">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-3">
+                        <h2 class="fw-bold">Um Mundo Infinito</h2>
+                        <p class="mb-0">Descubra biomas variados, chunks e dimensões como o Nether e o The End.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/vila.jpg" class="d-block w-100 img-fluid" alt="Modos de Jogo">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-3">
+                        <h2 class="fw-bold">Criatividade e Aventura</h2>
+                        <p class="mb-0">Escolha seus próprios objetivos nos modos Sobrevivência, Criativo e Multijogador.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carrosselMinecraft" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carrosselMinecraft" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Container Principal -->
+    <main class="container my-5">
+
+        <!-- Apresentação com Imagem -->
 </body>
 </html>
