@@ -83,7 +83,200 @@
     </header>
 
     <!-- Container Principal -->
-    
+    <main class="container my-5">
+
+        <!-- Apresentação -->
+        <section class="bg-white border rounded-3 p-4 mb-5 shadow-sm">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-7">
+                    <h1 class="fw-bold mb-3"><strong>Minecraft</strong></h1>
+                    <p>
+                        Minecraft é um jogo eletrônico de mundo aberto que permite aos jogadores explorar,
+                        construir e modificar ambientes formados por blocos. Uma de suas principais
+                        características é a liberdade: cada jogador pode escolher seus próprios objetivos,
+                        desde construir casas e cidades até explorar cavernas, enfrentar criaturas e descobrir
+                        novas regiões.
+                    </p>
+                    <p class="mb-0">
+                        O jogo possui diferentes recursos, ferramentas, animais, criaturas e materiais que
+                        podem ser encontrados durante a exploração. Essa variedade faz com que cada partida
+                        possa apresentar experiências diferentes, incentivando a criatividade, o planejamento
+                        e a descoberta.
+                    </p>
+                </div>
+                <div class="col-lg-5">
+                    <figure class="figure mb-0 w-100">
+                        <img src="../img/mine.jpg" class="figure-img img-fluid rounded shadow-sm w-100" alt="Universo Minecraft">
+                        <figcaption class="figure-caption text-center">Ambiente formado por blocos e exploração livre.</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- Estrutura de Textos -->
+        <section class="bg-white border rounded-3 p-4 mb-5 shadow-sm" id="sobre">
+            <h2 class="fw-bold border-bottom pb-2 mb-3"><strong>Sobre o Jogo</strong></h2>
+
+            <ul class="nav nav-pills mb-3" id="abasConteudo" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="aba-historia-tab" data-bs-toggle="pill" data-bs-target="#aba-historia" type="button" role="tab" aria-controls="aba-historia" aria-selected="true">
+                        História
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="aba-mundo-tab" data-bs-toggle="pill" data-bs-target="#aba-mundo" type="button" role="tab" aria-controls="aba-mundo" aria-selected="false">
+                        Um Mundo Infinito
+                    </button>
+                </li>
+            </ul>
+
+            <div class="tab-content border rounded p-4 bg-light" id="abasConteudoTexto">
+                <div class="tab-pane fade show active" id="aba-historia" role="tabpanel" aria-labelledby="aba-historia-tab" tabindex="0">
+                    <h3 class="h4 fw-bold mb-3"><strong>História</strong></h3>
+                    <p>
+                        O Minecraft começou como um projeto experimental de Markus "Notch" Persson em 2009.
+                        Inspirado por jogos de mineração e estratégia, Notch desenvolveu a primeira versão
+                        em poucos dias. O projeto chamou a atenção dos jogadores por apresentar um estilo
+                        diferente, no qual era possível construir estruturas e transformar o cenário usando
+                        blocos.
+                    </p>
+                    <p>
+                        Com o crescimento da comunidade, o jogo recebeu novas versões e atualizações.
+                        Em 2011, sua versão completa foi lançada pela Mojang. Em 2014, a Microsoft adquiriu
+                        a Mojang e os direitos da franquia. Desde então, Minecraft continuou recebendo
+                        melhorias, novos conteúdos e versões para diferentes plataformas.
+                    </p>
+                    <p class="mb-0">
+                        Ao longo dos anos, a comunidade também teve grande participação no crescimento do
+                        jogo. Jogadores passaram a compartilhar construções, mapas, desafios e modificações,
+                        criando novas maneiras de aproveitar o universo de Minecraft.
+                    </p>
+                </div>
+
+                <div class="tab-pane fade" id="aba-mundo" role="tabpanel" aria-labelledby="aba-mundo-tab" tabindex="0">
+                    <h3 class="h4 fw-bold mb-3">Um Mundo Infinito</h3>
+                    <p>
+                        Cada mundo de Minecraft é gerado de maneira própria, apresentando paisagens e
+                        características variadas. O mapa é dividido em partes chamadas "chunks", que são
+                        carregadas conforme o jogador explora o ambiente. Isso permite a criação de grandes
+                        áreas para exploração e construção.
+                    </p>
+                    <p>
+                        Entre os biomas encontrados estão florestas, desertos, planícies, montanhas,
+                        oceanos e regiões congeladas. Cada bioma possui elementos específicos, como tipos
+                        de vegetação, animais, recursos e estruturas. Por isso, explorar diferentes regiões
+                        é importante para encontrar materiais e conhecer melhor o mundo.
+                    </p>
+                    <p class="mb-0">
+                        Além do mundo principal, existem outras dimensões, como o Nether e o The End.
+                        Esses lugares apresentam ambientes, recursos e desafios próprios.
+                </div>
+            </div>
+        </section>
+
+        <!-- Modos de Jogo -->
+        <section class="mb-5" id="modos">
+            <div class="bg-white border rounded-3 p-4 shadow-sm">
+                <h2 class="fw-bold border-bottom pb-2 mb-4">Modos de Jogo</h2>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100 shadow-sm border-success">
+                            <img src="../img/survival.jpg" class="card-img-top" alt="Modo Sobrevivência">
+                            <div class="card-body">
+                                <h3 class="card-title h5 fw-bold">Modo Sobrevivência</h3>
+                                <p class="card-text">
+                                    Minecraft oferece diferentes modos de jogo. No modo Sobrevivência, o jogador precisa
+                                    coletar recursos, fabricar ferramentas, conseguir alimentos e se proteger dos perigos
+                                    do ambiente. A exploração e o planejamento são importantes para avançar.
+                                </p>
+                            </div>
+                            <div class="card-footer bg-transparent border-success">
+                                <span class="badge bg-success">Exploração e Recursos</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 shadow-sm border-primary">
+                            <img src="../img/criativo.png" class="card-img-top" alt="Modo Criativo">
+                            <div class="card-body">
+                                <h3 class="card-title h5 fw-bold">Modo Criativo</h3>
+                                <p class="card-text">
+                                    No modo Criativo, os jogadores têm liberdade para construir sem precisar reunir
+                                    materiais ou se preocupar com os perigos comuns do modo Sobrevivência. Esse modo é
+                                    bastante utilizado para criar casas, cidades, máquinas, monumentos e projetos de
+                                    grande escala.
+                                </p>
+                            </div>
+                            <div class="card-footer bg-transparent border-primary">
+                                <span class="badge bg-primary">Construção Livre</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 shadow-sm border-warning">
+                            <img src="../img/multiplayer.jpg" class="card-img-top" alt="Modo Multijogador">
+                            <div class="card-body">
+                                <h3 class="card-title h5 fw-bold">Modo Multijogador</h3>
+                                <p class="card-text">
+                                    Também é possível jogar com outras pessoas em mundos compartilhados e servidores.
+                                    O modo multijogador permite desenvolver construções em equipe, participar de desafios
+                                    e compartilhar experiências com amigos.
+                                </p>
+                            </div>
+                            <div class="card-footer bg-transparent border-warning">
+                                <span class="badge bg-warning text-dark">Jogos em Equipe</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Educação -->
+        <section class="bg-white border rounded-3 p-4 mb-5 shadow-sm" id="educacao">
+            <h2 class="fw-bold border-bottom pb-2 mb-3">Educação e Criatividade</h2>
+            <p>
+                Minecraft também pode ser utilizado em atividades educativas. A construção de
+                estruturas ajuda a trabalhar conceitos de espaço, medidas, organização e planejamento.
+                Projetos coletivos podem estimular a comunicação, a cooperação e a divisão de tarefas.
+            </p>
+            <p>
+                Alguns elementos do jogo, como a redstone, permitem criar mecanismos e circuitos
+                simples, aproximando os jogadores de conceitos de lógica e automação. A liberdade
+                para testar ideias e encontrar soluções também incentiva a criatividade e a
+                resolução de problemas.
+            </p>
+
+            <div class="accordion mt-3" id="accordionEducacao">
+                <div class="accordion-item">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#itemEspaco" aria-expanded="true" aria-controls="itemEspaco">
+                            Espaço, Medidas e Planejamento
+                        </button>
+                    </h3>
+                    <div id="itemEspaco" class="accordion-collapse collapse show" data-bs-parent="#accordionEducacao">
+                        <div class="accordion-body">
+                            A construção de estruturas ajuda a trabalhar conceitos de espaço, medidas, organização, planejamento e cooperação em projetos coletivos.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itemRedstone" aria-expanded="false" aria-controls="itemRedstone">
+                            Redstone, Lógica e Automação
+                        </button>
+                    </h3>
+                    <div id="itemRedstone" class="accordion-collapse collapse" data-bs-parent="#accordionEducacao">
+                        <div class="accordion-body">
+                            A redstone permite criar mecanismos e circuitos simples, aproximando os jogadores de conceitos de lógica, automação e resolução de problemas.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <!-- Rodapé -->
     <footer class="bg-dark text-white py-4 mt-5">
